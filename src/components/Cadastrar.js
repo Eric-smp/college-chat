@@ -12,13 +12,13 @@ const Cadastrar = ({voltar}) => {
     e.preventDefault()
     console.log(createEmail, createPassword, createTel)
 
-    
+
 
 
   }
   return (
     <div className='cadastro'>
-      <h1>Faça agora o seu cadastro</h1>
+      <h1 className='tituloCadastro'>Faça agora o seu cadastro</h1>
 
       <div className='cadastro-Form'>
         <form onSubmit={handleSubmit}>

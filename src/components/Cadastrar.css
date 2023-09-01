@@ -6,6 +6,13 @@
     align-items: center;
     color: rgb(25, 195, 125);
 }
+.tituloCadastro{
+    transition: 1s;
+    color: #ffffff;
+}
+.tituloCadastro:hover{
+    color: rgb(25, 195, 125) ;
+}
 .cadastro-Form{
     margin-top: 3rem;
     height: auto;
