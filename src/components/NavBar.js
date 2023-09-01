@@ -20,7 +20,7 @@ const NavBar = () => {
 
   return (
     <nav className="nav-bar">
-      <h1 >College Chat</h1>
+      <h1 className="tituloNav" >College Chat</h1>
       <div className="contatos-nav">
       <a href="">Grupo</a>
       <a href="https://github.com/Eric-smp/college-chat" target="_blank" rel="noreferrer" >Projeto</a>

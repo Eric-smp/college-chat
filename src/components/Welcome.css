@@ -14,22 +14,24 @@
 }
 
 
-h2{ 
-    font-size: 2.5rem;
-    color: rgb(25, 195, 125);
-    text-decoration: underline;
-}
 
+.titulo-Welcome{ 
+    font-size: 2.5rem;
+    color: #ffffff;
+}
 
 .content-Form{
   margin-top: 3rem;
   height: auto;
-  background-color: transparent;
+  width: 30rem;
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
-  border: 0.1rem solid rgb(25, 195, 125);
-  border-radius: 13px;
+  border-radius: 5px;
   padding: 1.25rem 1rem;
+}
+.titulo-Form{
+  font-size: 2rem;
 }
 
 .information-Form{
@@ -44,9 +46,18 @@ input{
   background-color: transparent;
   padding: 0rem 0.2rem;
   height: 2.3rem;
-  width: 15rem;
-  border: 1px solid rgb(25, 195, 125);
-  border-radius: 5px;
+  width: 20rem;
+  border: none;
+  /* border: 1px solid rgb(25, 195, 125); */
+  /* border-radius: 5px; */
+  background:   linear-gradient(rgb(25, 195, 125), rgb(25, 195, 125)) center bottom 5px /calc(100% + 10rem) 2px no-repeat;;
+}
+
+input:hover{
+  border: none;
+}
+input:focus{
+  outline: none;
 }
 .input-Email{
   margin-bottom: 1rem;
@@ -64,9 +75,10 @@ input{
 
 .entrar{
   padding: 0.5rem;
-  width: 85%;
+  width: 15rem;
   font-size: 1.3rem;
   background-color: transparent;
+  color: rgb(25, 195, 125);
   border: 2px solid rgb(25, 195, 125) ;
   border-radius: 10px;
   margin-bottom: 0.5rem;
@@ -78,9 +90,10 @@ input{
 }
 .cadastrar{
   padding: 0.5rem;
-  width: 85%;
+  width: 15rem;
   font-size: 1.3rem;
   background-color: transparent;
+  color: rgb(25, 195, 125);
   border: 2px solid rgb(25, 195, 125) ;
   border-radius: 10px;
   margin-bottom: 1rem;

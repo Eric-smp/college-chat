@@ -1,11 +1,11 @@
-h1{
+.tituloNav{
     font-size: 2rem;
     font-family: 'Times New Roman', Times, serif;
     color: #ffffff;
     cursor: inherit;
     transition: 1s;
 }
-h1:hover{
+.tituloNav:hover{
   color: #FFDEAD;
 }
 
