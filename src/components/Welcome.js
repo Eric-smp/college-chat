@@ -28,7 +28,7 @@ const Welcome = ({routerPages}) => {
     <main className="welcome">
       {/* <NavBar/> */}
       
-      <h2 className="titulo-Welcome">Bem-vindo ao College Chat skmsmdpamdpm</h2>
+      <h2 className="titulo-Welcome">Bem-vindo ao College Chat</h2>
       
       <div className="content-Form">
 
