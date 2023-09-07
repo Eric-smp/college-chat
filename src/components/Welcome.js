@@ -48,18 +48,18 @@ const Welcome = ({routerPages}) => {
               <br></br>
           <input type="password"   className="input-Password" name="senha" id="senha" onChange={(e)=> setPassword(e.target.value)}/>
             </label>
+            <a href="" className="text-Password">Esqueceu a senha?</a>
           </div>
 
-
-
+          
 
           <div className="acessConta">
 
           <button type="submit" value="Enviar" className="entrar" onClick={handleSubmit} >Entrar</button>
           <button className="cadastrar" onClick={routerPages}>Cadastrar-se</button>
 
-          <button className="sign-in"  onClick={googleSignIn}>
-            <img src="/googleIcon.png" alt="imagem" />
+          <button target='_blank' className="sign-in"  onClick={googleSignIn}> 
+            <img src="/googleIcon.png" alt="imagem"  />
           </button>
           </div>
         </form>

@@ -25,16 +25,15 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      {cadastro === 'welcome' && <Welcome routerPages={routerPage}/>}
+      
       {cadastro === 'cadastrar' && <Cadastrar voltar={voltar}/>}
       
-      {/* {!user ? (
-        <Welcome />
-      ) : (
+      
+      {!user ? cadastro === 'welcome' && <Welcome routerPages={routerPage}/>: (
         <>
           <ChatBox />
         </>
-      )} */}
+      )}
     </div>
   );
 }

@@ -11,11 +11,8 @@ const Cadastrar = ({voltar}) => {
   const handleSubmit = (e)=>{
     e.preventDefault()
     console.log(createEmail, createPassword, createTel)
-
-
-
-
   }
+  
   return (
     <div className='cadastro'>
       <h1 className='tituloCadastro'>Faça agora o seu cadastro</h1>
@@ -45,10 +42,10 @@ const Cadastrar = ({voltar}) => {
             </label>
             </div>
 
-
         </form>
               <button type="submit" className='criar-Conta' onClick={handleSubmit}>Enviar</button>
               <button type="submit" className='criar-Conta' onClick={voltar}>Voltar</button>
+
 
 
       </div>

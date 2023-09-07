@@ -63,9 +63,18 @@ input:focus{
   margin-bottom: 1rem;
 }
 .input-Password{
-  margin-bottom:2rem ;
+  margin-bottom:0rem ;
 }
 
+.text-Password{
+  display: flex;
+  width: 76%;
+  color: rgb(25, 195, 125);
+  font-size: 1rem;
+  margin-left: 4svw;
+  margin-bottom: 2rem;
+  text-decoration: underline;
+}
 .acessConta{
   display: flex;
   flex-direction: column;
