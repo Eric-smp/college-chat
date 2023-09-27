@@ -28,7 +28,7 @@ const NavBar = () => {
       </div>
       {user ? (
         <button onClick={signOut} className="sign-out" type="button">
-          Sign Out
+          Sair
         </button>
       ) : null}
     </nav>

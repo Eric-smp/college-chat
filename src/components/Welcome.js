@@ -1,10 +1,11 @@
 import React, { useState } from "react";
+import { Link } from 'react-router-dom';
 import './Welcome.css'
 // import NavBar from "./components/NavBar";
 import GoogleSignin from "../img/btn_google_signin_dark_pressed_web.png";
 import { auth } from "../firebase";
 import { GoogleAuthProvider, signInWithRedirect } from "firebase/auth";
-import Teste from './Cadastrar'
+
 
 const Welcome = ({routerPages}) => {
   const googleSignIn = () => {
@@ -51,10 +52,8 @@ const Welcome = ({routerPages}) => {
           </div>
 
 
-
-
+          
           <div className="acessConta">
-
           <button type="submit" value="Enviar" className="entrar" onClick={handleSubmit} >Entrar</button>
           <button className="cadastrar" onClick={routerPages}>Cadastrar-se</button>
 

@@ -28,13 +28,13 @@ function App() {
       {cadastro === 'welcome' && <Welcome routerPages={routerPage}/>}
       {cadastro === 'cadastrar' && <Cadastrar voltar={voltar}/>}
       
-      {/* {!user ? (
+      {!user ? (
         <Welcome />
       ) : (
         <>
           <ChatBox />
         </>
-      )} */}
+      )}
     </div>
   );
 }

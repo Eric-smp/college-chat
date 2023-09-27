@@ -47,7 +47,7 @@ const Cadastrar = ({voltar}) => {
 
 
         </form>
-              <button type="submit" className='criar-Conta' onClick={handleSubmit}>Enviar</button>
+              <button type="submit" className='criar-Conta' onClick={handleSubmit}>Cadastrar-se</button>
               <button type="submit" className='criar-Conta' onClick={voltar}>Voltar</button>
 
 

@@ -65,7 +65,13 @@ input:focus{
 .input-Password{
   margin-bottom:2rem ;
 }
-
+.esqueceuSenha{
+  font-size: 1rem;
+  color: 	rgb(25, 195, 125);
+}
+.esqueceuSenha:hover{
+  color: rgb(25, 195, 125);
+}
 .acessConta{
   display: flex;
   flex-direction: column;
